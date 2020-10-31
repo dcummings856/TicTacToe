@@ -1,0 +1,81 @@
+body {
+  background-color: rgba(4, 71, 30, 0.5);
+}
+
+.tic-tac-title {
+  font-size: 46px;
+  color: rgb(19, 39, 27);
+  text-align: center;
+}
+
+.btn {
+  font-size: 26px;
+  color: rgb(209, 215, 221);
+  background-color: rgba(8, 71, 55, 0.7);
+  margin: 5px;
+  border-radius: 20%;
+  cursor: pointer;
+  outline: none;
+}
+
+.start-btn {
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.submit-btn {
+  font-size: 14px;
+  height: 30px;
+  width: 70px;
+}
+
+.reset-btn {
+  display: none;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -5%);
+}
+
+.how-many-players {
+  display: none;
+  text-align: center;
+}
+
+.players-form {
+  display: none;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 200px);
+  justify-content: center;
+}
+
+form {
+  align-items: center;
+}
+
+.game-board-container {
+  display: none;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(3, 120px);
+  justify-content: center;
+}
+
+.cell {
+  font-size: 50px;
+  text-align: center; 
+  padding: 30px;
+  border: 2px solid black;
+}
+
+.cell:hover {
+  cursor: pointer;
+  background-color: rgba(201, 230, 231, 0.5);
+}
+
+.winner-container {
+  font-size: 45px;
+  color: rgb(3, 44, 27);
+  text-align: center;
+}
